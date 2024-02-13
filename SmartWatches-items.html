@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="total.js"></script>
+    <link rel="stylesheet" type="text/css" href="laptops-items.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="main-bg d-flex flex-row justify-content-between ml-3 mt-3">
+        <h3 class="main-head">WirelessWorld</h3>
+        <div class="d-flex justify-content-between mr-5">
+            <div class="person-icon">&#128100;</div>
+            <p><a href="login.com">Login</a></p>
+        </div>
+    </div>
+    <div class="mt-5">
+        <nav class="navbar navbar-expand-lg navbar-dark  first-page">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav nav-items-center">
+                    <a class=" nav-link active" aria-current="page" href="entrance.html">Home</a>
+                    <a class="ml-4 nav-link active" href="laptops-items.html">Laptops</a>
+                    <a class="ml-4 nav-link active"  href="drone-items.html" onclick="Drones()">Drones</a>
+                    <a class="ml-4 nav-link active"  >SmartWatches</a>
+                    <a class="ml-4 nav-link active" href="Mobile-items.html" onclick="Mobiles()">Mobiles</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <div class="height-increase">
+        <div class=" mb-4 d-flex flex-row justify-content-between">
+            <div class=" drones-card">
+                <div>
+                    <img class="img-size" id="photo-1" src="https://img.freepik.com/free-psd/digital-smart-watch-icon-isolated-3d-render-illustration_47987-8201.jpg"  alt="hi">
+                    <div>
+                        <h5 class="item-heading" id="items-name1">iam a SmartWatches</h5>
+                        <h6 id="items-price1">$300.00</h6>
+                    </div>
+
+                </div>
+            </div>
+            <div class="drones-card">
+                <img class="img-size" id="photo-2" src="https://img.freepik.com/premium-psd/modern-smartwatches-with-screen-mock-up_338742-2811.jpg" alt="hi">
+                <div>
+                    <h5 class="item-heading" id="items-name2">iam a SmartWatches</h5>
+                    <h6 id="items-price2">$300.00</h6>
+                </div>
+            </div>
+            <div class=" drones-card">
+                <img class="img-size" id="photo-3" src="https://img.freepik.com/premium-psd/smartwatch-mockup_472818-204.jpg" alt="hi">
+                <div>
+                    <h5 class="item-heading" id="items-name3">iam a SmartWatches</h5>
+                    <h6 id="items-price3">$300.00</h6>
+                </div>
+            </div>
+            <div class="mr-3 drones-card">
+                <img class="img-size" id="photo-4" src="https://img.freepik.com/premium-psd/smart-watch-mockup-geometric-scene_23-2149896790.jpg" alt="hi">
+                <div>
+                    <h5 class="item-heading" id="items-name4">iam a SmartWatches</h5>
+                    <h6 id="items-price4">$300.00</h6>
+                </div>
+            </div>
+        </div>
+        
+        <div class=" pt-5 d-flex flex-row justify-content-between">
+            <div class=" drones-card">
+                <div>
+                    <img class="img-size" id="photo-5" src="https://img.freepik.com/free-vector/smartwatch-illustration-vector_23-2147498800.jpg"   alt="hi">
+                    <div>
+                        <h5 class="item-heading" id="items-name5">iam a SmartWatches</h5>
+                        <h6 id="items-price5">$300.00</h6>
+                    </div>
+
+                </div>
+            </div>
+            <div class="drones-card">
+                <img class="img-size" id="photo-6" src="https://img.freepik.com/premium-vector/smart-watch-mockup-realistic-vector-illustration-technology-element_66219-1808.jpg"  alt="hi">
+                <div>
+                    <h5 class="item-heading" id="items-name6">iam a SmartWatches</h5>
+                    <h6 id="items-price6">$300.00</h6>
+                </div>
+            </div>
+            <div class=" drones-card">
+                <img class="img-size" id="photo-7" src="https://img.freepik.com/free-psd/smartwatch-mock-up-design_1022-184.jpg" alt="hi">
+                <div>
+                    <h5 class="item-heading" id="items-name7">iam a SmartWatches</h5>
+                    <h6 id="items-price7">$300.00</h6>
+                </div>
+            </div>
+            <div class="mr-3 drones-card">
+                <img class="img-size" id="photo-8" src="https://img.freepik.com/free-psd/digital-smart-watch-icon-isolated-3d-render-illustration_47987-8201.jpg" alt="hi">
+                <div>
+                    <h5 class="item-heading" id="items-name8">iam a SmartWatches</h5>
+                    <h6 id="items-price8">$300.00</h6>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+</body>
+</html>
